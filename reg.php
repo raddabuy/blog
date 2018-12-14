@@ -39,7 +39,7 @@
           var pass = $('#pass').val();
 
           $.ajax({
-            url: 'reg/reg.php',
+            url: 'ajax/reg.php',
             type: 'POST',
             cashe:false,
             data: {'username':name,'email':email, 'login':login, 'pass':pass},
