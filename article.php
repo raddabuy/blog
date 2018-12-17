@@ -55,6 +55,9 @@
               if(data == 'Готово'){
                 $('#article_send').text('Все готово');
                 $('#errorBlock').hide();
+                $('#title').val("");
+                $('#intro').val("");
+                $('#text').val("");
               }
 
               else{

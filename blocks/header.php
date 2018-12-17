@@ -2,6 +2,7 @@
     <h5 class="my-0 mr-md-auto font-weight-normal">Ideas Burner</h5>
     <nav class="my-2 my-md-0 mr-md-3">
       <a class="p-2 text-dark" href="index.php">Главная</a>
+      <a class="p-2 text-dark" href="contacts.php">Контакты</a>
       <?php
         if(isset($_COOKIE["login"]) != '')
           echo '<a class="p-2 text-dark" href="article.php">Добавить статью</a>';
